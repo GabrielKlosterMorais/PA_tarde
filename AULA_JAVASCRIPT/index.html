@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let variavel_let = 5; // Variavel de escopo local
+        var variavel_var = "texto"; // Variavel de escopo global
+        const variavel_const = true;  // Variavel inalteravel
+
+        variavel_let = 10;
+        variavel_var = 70;
+        // variavel_const = false; / Vai dar erro pois --> CONST(constantes) nao mudam ao decorrer do codigo
+        
+        if(variavel_let == 10 ){
+            console.log("Esta normal");
+        } else {
+            console.log("Esta diferente");
+        }
+
+        function somar(x, y){
+            return x + y;
+        }
+
+        console.log(somar(20, 10));
+    </script>
+</body>
+</html>
