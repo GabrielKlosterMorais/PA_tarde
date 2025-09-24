@@ -16,10 +16,11 @@
         }
 
         function divisao(x, y){ // os parametros fazem divisao
+           
+            if(x == 0 || y == 0){
+                return "Operacao impossivel";
+            }  
             return x / y;
-            if(x <= 0 || y <= 0){
-                console.log("Operacao impossivel")
-            } 
         }  
         
         function multiplicacao(x, y, z){ // faz a operacao de multiplicacao com cada parametro
