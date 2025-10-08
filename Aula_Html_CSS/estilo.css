@@ -1,0 +1,41 @@
+/* CLASSE ( . ) */
+/* ID ( # ) */
+
+    /* h1 {
+        color: blue;
+    } */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cor_azul{
+    color: blue;
+    background-color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+.quadrado-verde{
+    background-color: coral; /*Cor de fundo*/
+    color: white; /* Altura do elemento*/
+    height: 150px; /*Altura do elemento*/
+    width: 150px;  /* Largura do elemento*/
+     margin: 10px 0px 10px 0px; /* Espaçamento externo ao elemento */
+    padding: 10px 0px 10px 0px; /* Espaçamento interno ao elemento */
+}
+
+.quadrado-roxo{
+    background-color: rgb(138, 16, 219); /*Cor de fundo*/
+    color: white; /* Altura do elemento*/
+    height: 150px; /*Altura do elemento*/
+    width: 150px;  /* Largura do elemento*/
+}
+
+.alinhamento{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 100vh;
+}
