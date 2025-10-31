@@ -32,3 +32,52 @@
     justify-content: center;
 }
 
+.div-1{
+   width: 250px;
+   height: 250px;
+   display: flex;
+   justify-content: center;
+   align-items: end;
+}
+
+.div-2{
+    width: 250px;
+    height: 250px;
+    display: flex;
+   justify-content: center;
+}
+
+.div-3{
+    width: 250px;
+    height: 250px;
+}
+
+.arruma{
+    flex-direction: column;
+}
+
+/* .text-arr{
+    text-align: center;
+    text
+} */
+
+.arruma-botao{
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-estilizar{
+    width: 150px;
+   height: 50px;
+   border-radius: 10px;
+   background-color: rgb(80, 226, 67);
+}
+
+.comeco-coluna{
+    justify-content: start;
+}
+
+.padding{
+    padding: 20px;
+    font-size: 18px;
+}
