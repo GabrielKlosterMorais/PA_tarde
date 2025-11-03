@@ -8,7 +8,7 @@
 }
 
 .quadrado-principal{
-    background-color: rgb(163, 40, 235);
+    background-color: rgb(123, 173, 29);
     height: 900px;
     width: 700px;
     border-radius: 0px 10px 10px 0px;
@@ -30,6 +30,10 @@
 
 .centro-linha{
     justify-content: center;
+}
+
+.fim-coluna{
+    align-items: end;
 }
 
 .div-1{
@@ -70,7 +74,7 @@
     width: 150px;
    height: 50px;
    border-radius: 10px;
-   background-color: rgb(80, 226, 67);
+   background-color: rgb(27, 226, 70);
 }
 
 .comeco-coluna{
@@ -81,3 +85,45 @@
     padding: 20px;
     font-size: 18px;
 }
+
+.div-4{
+    width: 700px;
+   height: 25%;
+   display: flex;
+   justify-content: center;
+}
+
+.div-5{
+    width: 700px;
+   height: 25%;
+   display: flex;
+   justify-content: center;
+}
+
+.div-6{
+    width: 700px;
+   height: 25%;
+   display: flex;
+   justify-content: center;
+}
+
+.div-7{
+    width: 700px;
+   height: 25%;
+   display: flex;
+   justify-content: center;
+}
+
+.input-style{
+    width: 500px ;
+    height: 70px ;
+    border-radius: 10px;
+}
+
+.botao-estilizar-2{
+    width: 200px;
+   height: 75px;
+   border-radius: 10px;
+   background-color: rgb(18, 168, 63);
+}
+
