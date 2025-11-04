@@ -1,4 +1,4 @@
-*{
+*{ /* */
     margin: 0px;
     padding: 0px;
 }
@@ -51,6 +51,11 @@
    justify-content: center;
 }
 
+.div-23{
+    width: 250px;
+    height: 100px;
+}
+
 .div-3{
     width: 250px;
     height: 250px;
@@ -78,12 +83,19 @@
 }
 
 .comeco-coluna{
-    justify-content: start;
+    align-items: start;
 }
 
 .padding{
     padding: 20px;
     font-size: 18px;
+}
+
+.div-34{
+    width: 700px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
 }
 
 .div-4{
@@ -127,3 +139,17 @@
    background-color: rgb(18, 168, 63);
 }
 
+.mini-div{
+    width: 150px ;
+    height: 100px;
+    display: flex;
+}
+
+.alinha-text{
+    align-items: start;
+    justify-content: center;
+}
+
+.estiliza-fonte{
+    font-size: x-large;
+}
