@@ -7,8 +7,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <div class="container flex centro-coluna centro-linha">
+     
      <form action="process.php" method="POST" onsubmit="return validarform()">
+     <div class="container flex centro-coluna centro-linha">
+        <div class="quadrado-secundario">
+                <div class="div-1 ">
+                    <h1 flex centro-linha>SEJA BEM VINDO</h1>
+                </div>
+                <div class="div-2 flex centro-coluna">FACA SEU LOGIN</div>
+                <div class="div-3 flex centro-linha">
+                    <BUtton class="botao-estilizar">LOGIN</BUtton>
+                </div>
+        </div>
         
         <div class="quadrado-principal  ">
             <div class="div-34">
@@ -39,7 +49,7 @@
             </div>
 
             <div class="div-7 flex comeco-coluna">
-                <input type="submit" value="Enviar">
+                <input type="submit" value="Enviar" class="botao-estilizar">
             </div>
         </div>
      </form>
@@ -48,22 +58,3 @@
 </body>
 </html>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de cadrastro</title>
-</head>
-<body>
-    <h1>cadrastro de usuario</h1>
-    
-    <form action="process.php" method="POST" onsubmit="return validarform()">
-        <input type="email" placeholder="email. . ." name="email">
-        <input type="password" placeholder="senha. . ." name="senha">
-        <input type="password" placeholder="confirmar senha. . ." name="confirmaSenha">
-        <input type="submit" value="Enviar">
-    </form>
-    
-</body>
-</html>
