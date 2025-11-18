@@ -24,6 +24,9 @@
     display: flex;
 }
 
+.colunas{
+    align-items: columns;
+}
 .centro-coluna{
     align-items: center;
 }
@@ -35,6 +38,27 @@
 .fim-coluna{
     align-items: end;
 }
+
+.div01{
+    width: 250px;
+   height: 25%;
+   display: flex;
+   justify-content: center;
+}
+.div02{
+    width: 250px;
+   height: 25%;
+   display: flex;
+   justify-content: center;}
+.div03{
+    width: 250px;
+   height: 25%;
+   display: flex;
+   justify-content: center;}
+.div04{width: 250px;
+   height: 25%;
+   display: flex;
+   justify-content: center;}
 
 .div-1{
    width: 250px;
