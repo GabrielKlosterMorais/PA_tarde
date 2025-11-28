@@ -10,13 +10,15 @@ $quantidade = $_POST['quantidade'];
 
 echo $titulo, $autor, $ano, $categoria, $quantidade;
 
+
+
 $sql = "INSERT INTO livros(titulo, autor, ano, categoria, quantidade) VALUES ('$titulo', '$autor', '$ano', '$categoria', '$quantidade')";
 
 if($conn->query($sql) === TRUE){
-    echo "usuario cadrastrado com sucesso";
+    header("Location:listagem.php");
 }
 else{
-    ECHO "erro: " . $sql . "<br>" . $conn->error;
+    echo "erro: " . $sql . "<br>" . $conn->error;
 }
 
 
