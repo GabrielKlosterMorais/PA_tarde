@@ -30,13 +30,11 @@
                      <input type="text" placeholder="cpf" class="input" name="cpf">
                 </div>
            
-                <div class="umQuinto">
-                    <div class="metadeHori flex meioLinha">
-                        <input type="password" placeholder="senha" class="input" name="senha">
-                    </div>
-                    <div class="metadeHori flex meioLinha fimColuna">
-                        <input type="submit" palaceholder="enviar" class="input1">
-                    </div>
+                <div class="umQuinto meioLinha meioColuna flex">
+                    <input type="password" placeholder="senha" class="input" name="senha">
+                </div>
+                <div class="umQuinto meioLinha meioColuna flex">
+                    <input type="submit" palaceholder="enviar" class="input1">
                 </div>
             </form>
         </div>
