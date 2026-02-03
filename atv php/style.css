@@ -1,0 +1,69 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.metade{
+    width: 50%;
+}
+
+.metadeHori{
+    height: 50%;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.space{
+    justify-content: row-reverse;
+}
+
+.azul{
+    background-color: #0000ff;
+}
+
+.coluna{
+    flex-direction: column;
+}
+
+.flex{
+    display: flex;
+}
+
+.input{
+    height: 35px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: #4078e2;
+}
+
+.input1{
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #4e4ef0;
+}
+
+.umQuinto{
+    height: 20%;
+}
+
+.meioLinha{
+    justify-content: center;
+}
+
+.meioColuna{
+    align-items: center;
+}
+
+.fimColuna{
+    align-items: end;
+}
+
+.form{
+    height: 100%;
+    width: 100%;
+}
