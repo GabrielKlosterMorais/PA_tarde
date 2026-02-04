@@ -17,6 +17,9 @@ abstract class Carro{
         $this->marca = $marca;
         $this->cor = $cor;
     }
+
+
+
     abstract public function tipo(): string;
 
     public function andar(): void {
@@ -41,14 +44,14 @@ abstract class Carro{
     }
 }
 
-class carroRapido extends Carro{
+class CarroRapido extends Carro{
      public function tipo(): string {
         return "Carro mais rapido
         ";
     }
 }
 
-$wolkwagen = new Carro("Wolks", 4, 4, "wolkswagen", "amarelo");
-$carro->andar();
+$wolkwagen = new CarroRapido("Wolks", 4, 4, "wolkswagen", "amarelo");
+$wolkwagen->andar();
 
 ?>
